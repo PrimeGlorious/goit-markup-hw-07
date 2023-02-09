@@ -63,7 +63,8 @@ ul {
 .container {
   /* max-width: 1158px; */
   margin: 0 auto;
-  /* padding: 0 16px; */
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .list {
@@ -98,8 +99,8 @@ img {
 }
 
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .section-subtitle {
@@ -470,8 +471,10 @@ img {
   background-color: var(--light);
 }
 
-.team-container {
+.container.mini-container {
   max-width: 264px;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .team-title {
@@ -533,15 +536,6 @@ img {
 }
 
 /* customers */
-
-.customers {
-  padding-top: 96px;
-  padding-bottom: 96px;
-}
-
-.customers-container {
-  max-width: 396px;
-}
 
 .customers-title {
   text-align: center;
