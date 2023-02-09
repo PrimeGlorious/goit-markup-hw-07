@@ -62,7 +62,7 @@ ul {
 
 .container {
   /* max-width: 1158px; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding-right: 16px;
   padding-left: 16px;
 }
@@ -471,12 +471,6 @@ img {
   background-color: var(--light);
 }
 
-.container.mini-container {
-  max-width: 264px;
-  padding-right: 0;
-  padding-left: 0;
-}
-
 .team-title {
   margin-bottom: 72px;
   text-align: center;
@@ -491,6 +485,8 @@ img {
 .team-item {
   background-color: var(--white);
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .card {
