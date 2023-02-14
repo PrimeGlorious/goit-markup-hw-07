@@ -11,6 +11,10 @@
     gap: 56px;
   }
 
+  .menu-tel {
+    font-size: 36px;
+  }
+
   /* hero */
   .hero {
     background-image: var(--dark-gradient), url(../images/hero-bg-tab.jpg);
@@ -31,5 +35,22 @@
   .customers-container {
     padding-right: 16px;
     padding-left: 16px;
+  }
+
+  .modal {
+    width: 408px;
+    min-height: 576px;
+  }
+
+  .modal-title {
+    font-size: 14px;
+  }
+
+  .modal-comment {
+    height: 120px;
+  }
+
+  .check-text {
+    font-size: 12px;
   }
 }

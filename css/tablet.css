@@ -66,6 +66,7 @@
     text-decoration: none;
     letter-spacing: 0.02em;
     transition: color var(--cubic-bezier);
+    font-size: 12px;
   }
 
   .address-link:hover,
@@ -109,6 +110,11 @@
   }
 
   /* footer */
+
+  .footer > .container {
+    display: flex;
+    justify-content: center;
+  }
 
   .footer-logo-container {
     margin-right: 24px;
@@ -173,9 +179,10 @@
 
   .customers-list {
     column-gap: 24px;
+    justify-content: center;
   }
 
   .customers-item {
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 234px) / 3);
   }
 }

@@ -23,6 +23,10 @@
     gap: 40px;
   }
 
+  .address-link {
+    font-size: 16px;
+  }
+
   .address-absolute-link {
     position: relative;
   }
