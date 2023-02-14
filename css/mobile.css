@@ -1,7 +1,28 @@
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 424px;
+    max-width: 428px;
     margin-right: auto;
     margin-left: auto;
+  }
+  /* hero */
+  .hero {
+    background-image: var(--dark-gradient), url(../images/hero-bg-tab.jpg);
+  }
+
+  .hero-title {
+    max-width: 320px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--dark-gradient), url(../images/hero-bg-tab-2x.jpg);
+    }
+  }
+
+  .customers-container {
+    padding-right: 16px;
+    padding-left: 16px;
   }
 }

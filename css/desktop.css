@@ -1,0 +1,84 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  /* hero */
+
+  .hero.section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  /* footer */
+
+  .footer {
+    text-align: left;
+  }
+
+  .footer-wrap {
+    display: flex;
+  }
+
+  .footer-logo-container {
+    margin-right: 120px;
+    margin-bottom: 0;
+  }
+
+  .footer-logo {
+    text-align: left;
+  }
+
+  .footer-soc-container {
+    margin-right: 80px;
+    margin-bottom: 0;
+  }
+
+  .footer-soc-title {
+    text-align: left;
+  }
+
+  /* features */
+
+  .features-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .astounaut-icon-box {
+    display: flex;
+  }
+
+  .features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .features-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* about */
+
+  .about {
+    padding-top: 0;
+    display: block;
+  }
+
+  /* customers */
+
+  .customers-list {
+    column-gap: 24px;
+  }
+
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+  }
+}
