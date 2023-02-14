@@ -4,6 +4,13 @@
     margin-right: auto;
     margin-left: auto;
   }
+
+  /* mob menu */
+
+  .menu-soc-list {
+    gap: 56px;
+  }
+
   /* hero */
   .hero {
     background-image: var(--dark-gradient), url(../images/hero-bg-tab.jpg);

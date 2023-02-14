@@ -10,6 +10,16 @@
 
   /* header */
 
+  .header-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    margin-right: 123px;
+  }
+
   .nav {
     display: flex;
     margin-right: auto;
@@ -47,11 +57,7 @@
   }
 
   .address-list {
-    display: flex;
-  }
-
-  .address-item:not(:last-child) {
-    margin-right: 40px;
+    vertical-align: top;
   }
 
   .address-link {
@@ -65,6 +71,20 @@
   .address-link:hover,
   .address-link:focus {
     color: var(--pressed-state);
+  }
+
+  .address-absolute-link {
+    position: absolute;
+  }
+
+  /* mob menu */
+
+  .mob-header {
+    display: none;
+  }
+
+  .mob-menu {
+    display: none;
   }
 
   /* hero */

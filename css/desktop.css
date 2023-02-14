@@ -8,6 +8,25 @@
     padding-bottom: 120px;
   }
 
+  /* header */
+
+  .header {
+    padding-bottom: 24px;
+  }
+
+  .logo {
+    margin-right: 76px;
+  }
+
+  .address-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .address-absolute-link {
+    position: relative;
+  }
+
   /* hero */
 
   .hero.section {
