@@ -10,6 +10,10 @@
 
   /* header */
 
+  .header {
+    padding-bottom: 17px;
+  }
+
   .header-content {
     width: 100%;
     display: flex;
@@ -72,10 +76,6 @@
   .address-link:hover,
   .address-link:focus {
     color: var(--pressed-state);
-  }
-
-  .address-absolute-link {
-    position: absolute;
   }
 
   /* mob menu */

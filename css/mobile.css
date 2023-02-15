@@ -54,3 +54,9 @@
     font-size: 12px;
   }
 }
+
+@media screen and (min-width: 428px) {
+  .check-text {
+    font-size: 12px;
+  }
+}
